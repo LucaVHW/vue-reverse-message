@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+  background-color: #333;
+}
+#app {
+  border: 1px solid darkgrey;
+  padding: 5px;
+  width: 300px;
+  height: 200px;
+  display: grid;
+  justify-content: center;
+  display: block;
+  text-align: center;
+  background-color: lavender;
+}
+.text {
+  padding: 5px;
+  height: 100px;
+  border: 1px solid grey;
+  overflow: auto;
+  text-align: left;
+}
